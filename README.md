@@ -1,18 +1,24 @@
-#🕵️‍♂️ Spy Cats API
+# 🕵️‍♂️ Spy Cats API
+
 A RESTful API for managing spy cats, their missions, and targets. Built with Django REST Framework and integrated with TheCatAPI for breed validation.
 
-#🚀 Features
--Full CRUD for Spy Cats
--Assign missions to cats
--Track targets within missions
--Mark missions and targets as completed
--Validate cat breed via TheCatAPI
+---
 
-📦 Installation
+## 🚀 Features
+
+- Full CRUD for Spy Cats  
+- Assign missions to cats  
+- Track targets within missions  
+- Mark missions and targets as completed  
+- Validate cat breed via TheCatAPI  
+
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/spy-cats-api.git
-cd spy-cats-api
+git clone https://github.com/Van4ik777/cats_back.git
+cd cats_back
 docker compose build
 docker compose up
 docker exec -it crud_sv-web-1 python src/manage.py makemigrations
